@@ -1,0 +1,183 @@
+*{
+    background:#f3f5d6;
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding: 0px;
+}    
+    
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 8%;
+    margin-top: 20px;
+
+}
+main{
+    display: flex;
+    position: relative; 
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+.text-area {
+    border: none;
+    color:#0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    width: 100%;
+    max-width: 750px; /* Ajusta el ancho máximo si es necesario */
+    height: 650px; /* Puedes ajustar la altura según necesites */
+    resize: none; /* Evita que el textarea sea redimensionado */
+
+    
+
+}
+
+::placeholder { color: #0a3871;}
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    resize: none;
+    margin-left: 98px;
+    padding: 20px;
+    padding-bottom: 120px;
+    height: 612px;
+    color: darkblue;
+    background: white;
+    background-image: url(./img/diamante.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+   
+    
+}
+.mensaje:focus {
+   outline: none;
+}
+
+   .botones{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    gap: 20px;
+
+
+   }
+   .btn-encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width:328px;
+
+   }
+   .btn-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+   }
+
+   .dinamico{
+    background: transparent;
+    margin-left: 120px;
+    margin-top: 24px;
+    width: 360px;
+    position: absolute;
+    text-align: center;
+}
+.texto1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: initial;
+    background: transparent;
+}
+.texto2{
+    font-size: 16px;
+    line-height: initial;
+    background: transparent;
+    margin: 0%;
+}
+
+.btn-copiar{
+    color: darkblue;
+    background: #D8DFE8;
+    border: 1px solid darkblue;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 54px;
+    margin-left: 95px;
+
+.hidden {
+        display: none;
+    }    
+}
+.encriptar:hover, .desencriptar:hover, .copiar:hover{
+    background: #555;
+    color: white;
+}
+.anuncio{
+    display: none;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80px;
+    left: 100px;
+    margin-left: -75px;
+    opacity: .6;
+
+   }
+   
+   .informacion{
+    color: #495057;
+    font-size: 16px;
+   }
+
+   .footer{
+    color: #000000;
+    background-color: #0a3871;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200px;
+
+   }
+
+.hola {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
